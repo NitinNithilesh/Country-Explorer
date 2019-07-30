@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>REST Countries API</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 class="glow">Country Explorer</h1>
+    <center><h5 style="color:white;">Note : Please Hover over the Capital each time to access the previous results</h5></center>
+    <div id="main-container">
+      <div id="flag-container">
+        <img src="" alt="">
+      </div>
+    <div id="info-container"><br>
+      <label id="capital" onmousemove="pass_index();">Capital</label>
+        <input type="text" id="but" onchange="display();" Placeholder="Search">
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <form action="dialing.html" method="get"> <input type="submit" value="Dialing Code" onclick="pass();"></form>
+              </div>
+            </div>
+          <div class="column">
+            <div class="card">
+              <form action="population.html" method="get"> <input type="submit" value="Population" onclick="pass();"></form>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <form action="region.html" method="get"> <input type="submit" value="Region" onclick="pass();"></form>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <form action="subreg.html" method="get"> <input type="submit" value="Sub Region" onclick="pass();"></form>
+          </div>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <form action="native.html" method="get"> <input type="submit" value="Native Name" onclick="pass();"></form>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <form action="currency.html" method="get"> <input type="submit" value="Currency" onclick="pass();"></form>
+        </div>
+      </div>
+        <div class="column">
+          <div class="card">
+            <form action="demonym.html" method="get"> <input type="submit" value="Demonym" onclick="pass();"></form>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <form action="alpha_3_code.html" method="get"> <input type="submit" value="Alpha 3 Code" onclick="pass();"></form>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>
