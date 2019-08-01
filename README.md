@@ -1,10 +1,10 @@
 #Country-Explorer
 
-##Overview:
+Overview:
 
 This is created using pure HTML and JavaScript. It fetches the entered country details from the REST Country API by calling it and display the relevant Information.
 
-##Steps:
+Steps:
 
 1. Enter the required Country in the search field and click enter.
 2. The Flag and Capital of the country will be displayed above.
